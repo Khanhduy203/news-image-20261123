@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World News — Monday 23 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body {
+    font-family: "DejaVu Sans", "Liberation Sans", Arial, sans-serif;
+    background: #f6f2e9;
+    color: #1a1a1a;
+  }
+  .page { width: 1024px; height: 1024px; padding: 26px 28px 22px 28px; }
+
+  /* ---------- header ---------- */
+  header {
+    background: #101f38;
+    color: #fff;
+    border-radius: 14px;
+    padding: 20px 30px 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .kicker { font-size: 17px; letter-spacing: 5px; color: #f2b705; font-weight: bold; }
+  h1 { font-size: 47px; line-height: 1.05; margin-top: 6px; letter-spacing: -0.5px; }
+  .date-sub { font-size: 19px; color: #c9d4e6; margin-top: 6px; }
+  .globe { flex: 0 0 auto; margin-left: 18px; }
+
+  /* ---------- lead row ---------- */
+  .lead { display: flex; gap: 18px; margin-top: 18px; }
+  .lead-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    border-top: 8px solid #1f7a4d;
+    padding: 18px 20px 16px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .lead-card.red { border-top-color: #b3261e; }
+  .tag {
+    display: inline-block;
+    font-size: 14px; font-weight: bold; letter-spacing: 2px;
+    color: #fff; background: #1f7a4d; border-radius: 4px; padding: 4px 9px;
+  }
+  .lead-card.red .tag { background: #b3261e; }
+  .lead-card h2 { font-size: 29px; line-height: 1.18; margin: 11px 0 8px 0; }
+  .lead-card p { font-size: 18px; line-height: 1.38; color: #333; }
+  .big-stat { font-size: 44px; font-weight: bold; color: #1f7a4d; margin-top: 8px; }
+  .big-stat small { font-size: 20px; color: #555; font-weight: normal; }
+
+  /* ---------- grid ---------- */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 18px; }
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px 20px 14px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-left: 8px solid #2b5ea7;
+    display: flex;
+    gap: 14px;
+  }
+  .card.amber { border-left-color: #d98e00; }
+  .card.purple { border-left-color: #6a3fa0; }
+  .card.teal { border-left-color: #0f7b7c; }
+  .card .icon { flex: 0 0 64px; padding-top: 4px; }
+  .card h3 { font-size: 21px; line-height: 1.22; margin-bottom: 6px; }
+  .card p { font-size: 16.5px; line-height: 1.35; color: #333; }
+  .card .tagline { font-size: 13px; font-weight: bold; letter-spacing: 2px; color: #2b5ea7; margin-bottom: 6px; }
+  .card.amber .tagline { color: #b97a00; }
+  .card.purple .tagline { color: #6a3fa0; }
+  .card.teal .tagline { color: #0f7b7c; }
+
+  /* ---------- footer ---------- */
+  footer {
+    margin-top: 18px;
+    border-top: 2px solid #c9c2b2;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div>
+      <div class="kicker">THE WORLD IN ONE DAY</div>
+      <h1>Monday 23 November 2026</h1>
+      <div class="date-sub">Six stories that defined the day, from six corners of the globe</div>
+    </div>
+    <svg class="globe" width="92" height="92" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="46" fill="none" stroke="#f2b705" stroke-width="4"/>
+      <ellipse cx="50" cy="50" rx="22" ry="46" fill="none" stroke="#f2b705" stroke-width="3"/>
+      <line x1="4" y1="50" x2="96" y2="50" stroke="#f2b705" stroke-width="3"/>
+      <line x1="10" y1="28" x2="90" y2="28" stroke="#f2b705" stroke-width="2"/>
+      <line x1="10" y1="72" x2="90" y2="72" stroke="#f2b705" stroke-width="2"/>
+    </svg>
+  </header>
+
+  <div class="lead">
+    <div class="lead-card">
+      <span class="tag">TECH &amp; MARKETS</span>
+      <h2>Nvidia brings back Jensen Huang as CEO</h2>
+      <p>The board reinstates its co-founder as chief executive. Shares jump and Wall Street's AI rally roars back to life.</p>
+      <div class="big-stat">+31.5% <small>Nvidia shares</small></div>
+    </div>
+    <div class="lead-card red">
+      <span class="tag">MIDDLE EAST</span>
+      <h2>Trump warns he will sink Iranian vessels</h2>
+      <p>Washington threatens ships that test its naval blockade, as the US strikes a tanker carrying Iranian oil near the Strait of Hormuz.</p>
+      <div class="big-stat" style="color:#b3261e;">31 <small>tankers already beyond Hormuz</small></div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <svg class="icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M6 40 L58 40 L52 52 L12 52 Z" fill="#2b5ea7"/>
+        <rect x="26" y="26" width="14" height="14" fill="#2b5ea7"/>
+        <rect x="30" y="14" width="4" height="14" fill="#2b5ea7"/>
+        <path d="M8 56 q6 -4 12 0 q6 4 12 0 q6 -4 12 0 q6 4 12 0" fill="none" stroke="#2b5ea7" stroke-width="3"/>
+      </svg>
+      <div>
+        <div class="tagline">WAR AT SEA &middot; LIBYA</div>
+        <h3>Ukraine says its sea drones sank a Russian warship off Libya</h3>
+        <p>Zelensky confirms seven naval drones sank the corvette Merkury in Benghazi harbour and hit a weapons cargo ship.</p>
+      </div>
+    </div>
+
+    <div class="card amber">
+      <svg class="icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <ellipse cx="32" cy="30" rx="16" ry="7" fill="#d98e00"/>
+        <rect x="14" y="26" width="36" height="3" fill="#8a5c00"/>
+        <circle cx="16" cy="20" r="5" fill="none" stroke="#8a5c00" stroke-width="3"/>
+        <circle cx="48" cy="20" r="5" fill="none" stroke="#8a5c00" stroke-width="3"/>
+        <path d="M10 48 L54 48" stroke="#8a5c00" stroke-width="3" stroke-dasharray="5 4"/>
+      </svg>
+      <div>
+        <div class="tagline">NATO &middot; POLAND</div>
+        <h3>Suspected Russian drone crosses into Poland for 8 minutes</h3>
+        <p>Warsaw tracks the jet-powered drone, is cleared to shoot it down, then holds fire over civilian risk as it turns back.</p>
+      </div>
+    </div>
+
+    <div class="card purple">
+      <svg class="icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="26" fill="none" stroke="#6a3fa0" stroke-width="4"/>
+        <polygon points="32,20 42,28 38,40 26,40 22,28" fill="#6a3fa0"/>
+        <path d="M32 20 L32 8 M42 28 L54 22 M38 40 L46 50 M26 40 L18 50 M22 28 L10 22" stroke="#6a3fa0" stroke-width="3"/>
+      </svg>
+      <div>
+        <div class="tagline">SPORT &middot; FOOTBALL</div>
+        <h3>UK confirmed as host of the 2035 Women's World Cup</h3>
+        <p>FIFA votes by acclamation in Zurich; a US-led bid takes 2031, the first 48-team edition. The UK's first World Cup since 1966.</p>
+      </div>
+    </div>
+
+    <div class="card teal">
+      <svg class="icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M8 22 L32 10 L56 22 L56 26 L8 26 Z" fill="#0f7b7c"/>
+        <rect x="12" y="30" width="8" height="18" fill="#0f7b7c"/>
+        <rect x="28" y="30" width="8" height="18" fill="#0f7b7c"/>
+        <rect x="44" y="30" width="8" height="18" fill="#0f7b7c"/>
+        <rect x="8" y="50" width="48" height="4" fill="#0f7b7c"/>
+      </svg>
+      <div>
+        <div class="tagline">TRADE &middot; EUROPE &amp; ASIA</div>
+        <h3>EU signs sweeping trade deal with Indonesia</h3>
+        <p>Brussels and Jakarta agree to scrap most tariffs between them, aiming to unlock billions in trade and investment.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Sources: Reuters, Dow Jones, CNN, WSJ, Al Jazeera, The Guardian, Gulf News, Kyiv Post</span>
+    <span>All events of Monday 23 November 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
